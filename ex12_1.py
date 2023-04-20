@@ -1,0 +1,7 @@
+import random, ex12
+
+numbers = []
+for i in range(1000000):
+    numbers.append(random.randint(1, 10000000000))
+print('Numbers:', numbers)
+print('Smallest number is', ex12.getSmallest(numbers))
